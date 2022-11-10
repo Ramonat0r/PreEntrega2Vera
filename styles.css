@@ -50,8 +50,12 @@ a:hover {
 .ofertaprincipal {
     display: flex;
     justify-content: space-between;    
-    width: 95%;    
-}
+    width: 95%; 
+    
+   
+        
+    }
+
 
 figure {
     width: 100%;    
@@ -136,4 +140,14 @@ footer{
 display: flex;
 overflow-y: auto;
 margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .ofertaprincipal
+    { 
+        flex-direction: column;   
+    }
+    nav a {
+        margin-left: 10px;
+    }
 }
